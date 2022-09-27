@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %}StoryUp/login{% endblock %} {% block contend %}
+
+<form method="post">
+    <h3 aling="center">Login</h3>   
+    <div class="form-group">
+        <label for="userName">User Name </label>
+        <input 
+         type="text" 
+         class="form-control" 
+         id="userName" 
+         name="userName" 
+         placeholder="Enter user name ">
+    <div class="form-group">
+        <label for="password1">Password</label>
+        <input 
+         type="password" 
+         class="form-control" 
+         id="password" 
+         name="password" 
+         placeholder="Enter a password">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Confirm</button>
+</form>
+{% endblock %}
